@@ -1,0 +1,18 @@
+body{
+    font-family: 'Poppins', sans-serif;
+}
+h1{
+    font-size:30px ;
+}
+.s{
+    color: rgb(202, 9, 67);
+}
+.header{
+    width: 40%;
+    float: left;
+    margin-left: 8%;
+    padding-left: 2%;
+}
+.header img{
+    width: 60%;
+}
