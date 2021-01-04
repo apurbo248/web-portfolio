@@ -1,8 +1,24 @@
 body{
     font-family: 'Poppins', sans-serif;
+    margin:0;
 }
 h1{
     font-size:30px ;
+}
+h2{
+    font-size: 30px;
+}
+p{
+    color: dimgray;
+}
+.link{
+    text-decoration: none;
+    background-image: linear-gradient(90deg, blue,rgb(202, 9, 67));
+    padding: 10px 20px;
+    border-radius: 5px;
+    color: white;
+    font-weight: bold;
+
 }
 .s{
     color: rgb(202, 9, 67);
@@ -10,9 +26,49 @@ h1{
 .header{
     width: 40%;
     float: left;
-    margin-left: 8%;
+    margin-left: 5%;
     padding-left: 2%;
 }
 .header img{
     width: 60%;
+    margin-top: 30px;
+}
+.top{
+    background-image: url("images/top-banner.png");
+    background-repeat: no-repeat;
+}
+section{
+    height: 500px;
+  
+}
+.dream{
+    background-image: url("images/dream-bg.png");
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+.ex{
+    box-shadow: 10px 10px 40px gray;
+    height: 300px;
+    background-color: white;
+}
+.experience{
+    background-image: url("images/exp-bg.png");
+    background-repeat: no-repeat;
+    background-position: left;
+    
+    
+}
+#fstack{
+    border-left: 7px solid;
+    border-image: linear-gradient(blue,red);
+    border-image-slice:1 ;
+}
+#b{
+    border-left: 7px solid;
+    border-image: linear-gradient( rgb(3, 3, 12),red);
+    border-image-slice:1 ;
+}
+footer p{
+    text-align: center;
 }
