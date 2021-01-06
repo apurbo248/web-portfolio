@@ -1,5 +1,5 @@
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
     margin:0;
 }
 h1{
@@ -12,38 +12,40 @@ h2{
 }
 p{
     color: dimgray;
+    padding-bottom: 20px;
 }
-.top-part{
+
+.nav{
     height: 60px;
     width: 100%;
     margin-bottom: 50px;
 }
-.top-part ul{
+.nav ul{
     
     float: right;
     margin-right: 100px;
     
 }
-.top-part ul li{
+.nav ul li{
     margin-top: 20px;
     display: inline-block;
     margin-right:20px ;
     position: relative;
     font-size: 20px;
 }
-.top-part ul li a{
+.nav ul li a{
     text-decoration: none;
 }
 .link{
     text-decoration: none;
-    background-image: linear-gradient(90deg, blue,rgb(202, 9, 67));
+    background-image: linear-gradient(90deg, rgb(199, 142, 18),rgb(248, 178, 27));
     padding: 10px 20px;
     border-radius: 5px;
-    color: white;
+    color: rgb(7, 7, 7);
     font-weight: bold;
 
 }
-.s{
+.color{
     color: rgb(202, 9, 67);
 }
 .header{
@@ -61,12 +63,15 @@ section{
     height: 300px;
   
 }
- .experiences{
-    height: 600px;
+ .project{
+    height: 700px;
+    background-color: rgb(173, 167, 167);
+    margin-bottom:50px ;
 }
-.ex{
+ 
+.work{
     
-    height: 380px;
+    height: 390px;
     width: 380px;
     background-color: white;
     border-radius: 30px;
@@ -74,14 +79,11 @@ section{
  .img{
     width: 230%;
 }
-.experiences{
-background-color: rgb(241, 236, 236);
-margin-bottom:100px ;
-}
-.experiences h1{
+
+.project h1{
     text-align: center;
-    margin-bottom: 50px;
-    padding-top: 50px; 
+    margin-bottom: 60px;
+    padding-top: 80px; 
 }
 .work-inquery{
     background-image: url("images/Group_33094_1.png");
@@ -91,7 +93,7 @@ margin-bottom:100px ;
     text-align: center;
     height: 200px;
     position: relative;
-    margin-top: 5%;
+    margin-top: 3%;
 }
 
 .work-inquery .txt{
@@ -113,10 +115,20 @@ margin-bottom:100px ;
     background-image: linear-gradient(90deg,rgb(199, 142, 18),rgb(248, 178, 27));
    padding: 14px 16px;
 }
+.share{
+    text-align: center;
+}
+.share .sharein a{
+    text-decoration: none;
+    background-color: black;
+    padding: 10px 20px;
+    color: yellow;
+    border-radius: 50px;
+}
 .contact{
     height: 200px;
     text-align: center;
-    padding-top: 5%;
+    padding-top: 3%;
     position: relative;
 }
 .contact h2{
