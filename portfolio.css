@@ -4,12 +4,35 @@ body{
 }
 h1{
     font-size:30px ;
+
 }
 h2{
     font-size: 30px;
+    color: solid black;
 }
 p{
     color: dimgray;
+}
+.top-part{
+    height: 60px;
+    width: 100%;
+    margin-bottom: 50px;
+}
+.top-part ul{
+    
+    float: right;
+    margin-right: 100px;
+    
+}
+.top-part ul li{
+    margin-top: 20px;
+    display: inline-block;
+    margin-right:20px ;
+    position: relative;
+    font-size: 20px;
+}
+.top-part ul li a{
+    text-decoration: none;
 }
 .link{
     text-decoration: none;
@@ -30,45 +53,81 @@ p{
     padding-left: 2%;
 }
 .header img{
-    width: 60%;
-    margin-top: 30px;
-}
-.top{
-    background-image: url("images/top-banner.png");
-    background-repeat: no-repeat;
+    width: 40%;
+    margin-top: 20px;
+    
 }
 section{
-    height: 500px;
+    height: 300px;
   
 }
-.dream{
-    background-image: url("images/dream-bg.png");
-    background-repeat: no-repeat;
-    background-position: right;
-    background-size: 80px;
+ .experiences{
+    height: 600px;
 }
 .ex{
-    box-shadow: 10px 10px 40px gray;
-    height: 300px;
+    
+    height: 380px;
+    width: 380px;
     background-color: white;
+    border-radius: 30px;
 }
-.experience{
-    background-image: url("images/exp-bg.png");
+ .img{
+    width: 230%;
+}
+.experiences{
+background-color: rgb(241, 236, 236);
+margin-bottom:100px ;
+}
+.experiences h1{
+    text-align: center;
+    margin-bottom: 50px;
+    padding-top: 50px; 
+}
+.work-inquery{
+    background-image: url("images/Group_33094_1.png");
     background-repeat: no-repeat;
-    background-position: left;
-    
+    background-position: center;
+    background-size: 600px 150px;
+    text-align: center;
+    height: 200px;
+    position: relative;
+    margin-top: 5%;
+}
+
+.work-inquery .txt{
+    position: absolute;
+    padding-left: 500px;
+    padding-top: 50px;
+    color: white;
+}
+.work-inquery .chat {
+    position: absolute;
+    padding-top:85px ;
+    float: right;
+    padding-left:900px ;
     
 }
-#fstack{
-    border-left: 7px solid;
-    border-image: linear-gradient(blue,red);
-    border-image-slice:1 ;
+.work-inquery .chat a{
+    text-decoration: none;
+    border-radius: 5px;
+    background-image: linear-gradient(90deg,rgb(199, 142, 18),rgb(248, 178, 27));
+   padding: 14px 16px;
 }
-#b{
-    border-left: 7px solid;
-    border-image: linear-gradient( rgb(3, 3, 12),red);
-    border-image-slice:1 ;
+.contact{
+    height: 200px;
+    text-align: center;
+    padding-top: 5%;
+    position: relative;
+}
+.contact h2{
+    padding-top: 0;
+}
+.contact .social-media img{
+    width: 2%;
+    padding-right: 10px;
+
 }
 footer p{
+    padding-top: 5px;
     text-align: center;
 }
